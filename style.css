@@ -1066,7 +1066,10 @@ body.cursor-hover .cursor-ring { width: 56px; height: 56px; border-color: var(--
 .cert-card {
   padding: 2rem 1.5rem;
   text-align: center;
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
   transition: transform var(--dur-med) var(--ease-spring),
               box-shadow var(--dur-med),
               border-color var(--dur-med);
